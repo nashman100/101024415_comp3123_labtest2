@@ -57,21 +57,27 @@ function Weather() {
                         />
                         <p className="card-text">{weather.weather[0].description.split(" ").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}</p>
                         <p className="card-text">
+                            <i className="fas fa-thermometer-half"></i>
                             <strong>Temperature:</strong> {(weather.main.temp - 273.15).toFixed(0)}°C
                         </p>
                         <p className="card-text">
+                            <i className="fas fa-temperature-high"></i>
                             <strong>High:</strong> {(weather.main.temp_max - 273.15).toFixed(0)}°C
                         </p>
                         <p className="card-text">
+                            <i className="fas fa-temperature-low"></i>
                             <strong>Low:</strong> {(weather.main.temp_min - 273.15).toFixed(0)}°C
                         </p>
                         <p className="card-text">
+                            <i className="fas fa-wind"></i>
                             <strong>Wind:</strong> {weather.wind.speed.toFixed(0)} km/h
                         </p>
                         <p className="card-text">
+                            <i className="fas fa-tint"></i>
                             <strong>Humidity:</strong> {weather.main.humidity}%
                         </p>
                         <p className="card-text">
+                            <i className="fas fa-compress-arrows-alt"></i>
                             <strong>Pressure</strong> {weather.main.pressure} hPa
                         </p>
                     </div>
