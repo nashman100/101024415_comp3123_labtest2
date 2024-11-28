@@ -21,11 +21,14 @@ A simple weather app built with ReactJS that allows users to search for current 
 4. Start the app: `npm start`
 
 ## Screenshots
-![Page loads with Toronto set as the default location](screenshots/default.jpg)
-![Page dynamically changes once a new city is entered into the input bar](screenshots/changed.jpg)
-![Page returns city not found if an invalid city name is entered](screenshots/not_found.jpg)
+![Default Page](screenshots/default.jpg)
+Page loads with Toronto set as the default location
+![Changed City Page](screenshots/changed.jpg)
+Page dynamically changes once a new city is entered into the input bar
+![City Not Found](screenshots/not_found.jpg)
+Page returns city not found if an invalid city name is entered
 ![Postman Screenshot](screenshots/postman.jpg)
-
+Postman Screenshot
 ## Author
 - Nash Gill
 - Student ID: 101024415
