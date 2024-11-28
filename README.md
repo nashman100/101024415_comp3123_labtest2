@@ -12,7 +12,7 @@ A simple weather app built with ReactJS that allows users to search for current 
 - [OpenWeatherMap API](https://openweathermap.org/)
 
 ## Setup Instructions
-1. Clone the repository: `git clone <your-repo-link>`
+1. Clone the repository: `git clone git@github.com:nashman100/101024415_comp3123_labtest2.git`
 2. Install dependencies: `npm install`
 3. Add your API key to a `.env` file:
    ```
